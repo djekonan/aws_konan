@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "example" {
   count = var.example_count
-  bucket = "my-tf-test-bucket"
+  bucket = "s3konanbuket"
   force_destroy = false
   acl    = "private"
 
